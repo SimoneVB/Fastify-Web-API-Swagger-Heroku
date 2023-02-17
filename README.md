@@ -28,8 +28,8 @@ npm i
 npm run serve
 ```
 
-### Start Swagger
+### Testing API using Swagger
 Once your backend is running, open http://127.0.0.1:3000/docs/ with your Web Browser, to access the API Documentation and testing environment
 
-### Postman
+### Testing API using Postman
 Once your backend is running, you can import the ./Postman/Fastify-Web-API.postman_collection.json file, to invoke API using Postman
