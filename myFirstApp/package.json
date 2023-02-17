@@ -1,0 +1,32 @@
+{
+  "name": "myfirstapp",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap \"test/**/*.test.js\"",
+    "start": "fastify start -l info app.js",
+    "info": "fastify print-routes ./routes/users/index.js",
+    "serve": "fastify start -w -l info -P app.js",
+    "serve:no-info": "fastify start -w -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/cors": "^8.2.0",
+    "@fastify/sensible": "^5.0.0",
+    "@fastify/swagger": "^8.3.1",
+    "@fastify/swagger-ui": "^1.3.0",
+    "fastify": "^4.0.0",
+    "fastify-cli": "^5.7.1",
+    "fastify-plugin": "^4.0.0"
+  },
+  "devDependencies": {
+    "tap": "^16.1.0"
+  }
+}
